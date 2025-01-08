@@ -1,0 +1,76 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    background-color: #c4edcb;
+    max-width: 955px;
+    border: 0px solid rgb(37, 155, 252);
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    border: 1px solid black;
+    margin-top: 2px;
+    border-radius: 20px;
+}
+.message{
+        background-color: #0c6ef7;
+        width: 24%;
+        padding: 10px;
+        margin: 17px 12px;
+        color: white;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+        border-top-left-radius: 3px;
+        border-bottom-right-radius: 1px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 34px;
+    background-color: #daf1de;
+    border-top-left-radius: -1px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: -1px;
+}
+.btn{
+    cursor: pointer;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    height: 40px;
+    background-color: #27f74a;
+    color: rgb(23, 18, 18);
+    margin-left: 4px;
+    border-top-left-radius: -1px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: -1px;
+    border-bottom-right-radius: -1px;
+    
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(255,255,255),rgb(255, 255, 255));
+}
